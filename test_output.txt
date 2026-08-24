@@ -1,0 +1,9 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.1.1, pluggy-1.6.0
+rootdir: e:\Projects\Sudoku\github-copilot-python
+configfile: pytest.ini
+collected 8 items
+
+tests\test_app.py ........                                               [100%]
+
+============================= 8 passed in 27.76s ==============================

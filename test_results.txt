@@ -1,0 +1,23 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.1.1, pluggy-1.6.0 -- E:\Projects\Sudoku\github-copilot-python\starter\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: e:\Projects\Sudoku\github-copilot-python
+configfile: pytest.ini
+collecting ... collected 17 items
+
+tests/test_app.py::test_index_page_includes_theme_toggle PASSED          [  5%]
+tests/test_app.py::test_new_game_sets_current_solution PASSED            [ 11%]
+tests/test_app.py::test_new_game_defaults_to_medium_difficulty PASSED    [ 17%]
+tests/test_app.py::test_new_game_respects_difficulty_parameter PASSED    [ 23%]
+tests/test_app.py::test_hint_returns_one_correct_cell PASSED             [ 29%]
+tests/test_app.py::test_hint_without_game_returns_400 PASSED             [ 35%]
+tests/test_app.py::test_new_game_invalid_difficulty_returns_400 PASSED   [ 41%]
+tests/test_app.py::test_check_solution_returns_empty_incorrect_for_exact_solution PASSED [ 47%]
+tests/test_app.py::test_check_solution_reports_incorrect_cells PASSED    [ 52%]
+tests/test_app.py::test_check_solution_without_game_returns_400 PASSED   [ 58%]
+tests/test_app.py::test_check_solution_detects_incomplete_board PASSED   [ 64%]
+tests/test_sudoku_logic.py::test_create_empty_board_returns_9x9_zeros PASSED [ 70%]
+tests/test_sudoku_logic.py::test_is_safe_detects_row_column_and_box_conflicts PASSED [ 76%]
+tests/test_sudoku_logic.py::test_fill_board_completes_a_valid_board PASSED [ 82%]
+tests/test_sudoku_logic.py::test_generate_puzzle_returns_puzzle_and_solution_with_matching_values PASSED [ 88%]
+tests/test_sudoku_logic.py::test_has_unique_solution_detects_multiple_solutions 
